@@ -1,9 +1,13 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from '@client-app/app/components/app/app.component';
+import { SharedModule } from 'shared-lib';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        SharedModule
+      ],
       declarations: [
         AppComponent
       ],
