@@ -182,7 +182,9 @@
         },
         "test": {
           "builder": "@angular-builders/jest:run",
-          "options": {}
+          "options": {
+            "runInBand": true
+          }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
