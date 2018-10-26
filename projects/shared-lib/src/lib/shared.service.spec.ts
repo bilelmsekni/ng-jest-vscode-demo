@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SharedLibService } from './shared-lib.service';
+import { SharedLibService } from './shared.service';
 
 describe('SharedLibService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));

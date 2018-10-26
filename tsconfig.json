@@ -10,20 +10,13 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom"],
     "paths": {
-      "shared-lib": [
-        "dist/shared-lib"
-      ],
-      "shared-lib/*": [
-        "dist/shared-lib/*"
-      ]
+      "@main-app/*": ["src/*"],
+      "@client-app/*": ["projects/client-app/src/*"],
+      "shared-lib": ["dist/shared-lib"],
+      "shared-lib/*": ["dist/shared-lib/*"]
     }
   }
 }
